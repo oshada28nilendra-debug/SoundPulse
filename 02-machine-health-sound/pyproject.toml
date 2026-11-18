@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "machine-health-sound"
+version = "0.1.0"
+description = "Normal-only acoustic machine anomaly detection with noise/domain stress tests"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "scikit-learn>=1.3,<2", "matplotlib>=3.7,<4"]
+
+[project.scripts]
+sound-health = "soundhealth.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["soundhealth*"]

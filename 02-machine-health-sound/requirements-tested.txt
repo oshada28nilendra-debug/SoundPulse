@@ -1,0 +1,6 @@
+# Direct dependencies validated on Python 3.12.14, Linux CPU.
+# This is not a complete hash-locked transitive dependency file.
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8

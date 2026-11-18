@@ -1,0 +1,17 @@
+test_calibration_and_training_overlap_rejected (test_soundhealth.SoundHealthTests.test_calibration_and_training_overlap_rejected) ... ok
+test_detects_synthetic_defect_signal (test_soundhealth.SoundHealthTests.test_detects_synthetic_defect_signal) ... ok
+test_duplicate_content_cannot_cross_manifest_splits (test_soundhealth.SoundHealthTests.test_duplicate_content_cannot_cross_manifest_splits) ... ok
+test_feature_trace_dimensions_and_mel_support (test_soundhealth.SoundHealthTests.test_feature_trace_dimensions_and_mel_support) ... ok
+test_gain_normalized_features_are_invariant (test_soundhealth.SoundHealthTests.test_gain_normalized_features_are_invariant) ... ok
+test_metrics_keep_false_alarms_separate_from_recall (test_soundhealth.SoundHealthTests.test_metrics_keep_false_alarms_separate_from_recall) ... ok
+test_noise_level_and_determinism (test_soundhealth.SoundHealthTests.test_noise_level_and_determinism) ... ok
+test_nonfinite_audio_rejected (test_soundhealth.SoundHealthTests.test_nonfinite_audio_rejected) ... ok
+test_resamples_integer_stereo_without_amplitude_error (test_soundhealth.SoundHealthTests.test_resamples_integer_stereo_without_amplitude_error) ... ok
+test_serialization_preserves_score_and_trace (test_soundhealth.SoundHealthTests.test_serialization_preserves_score_and_trace) ... ok
+test_silence_and_short_audio_are_not_healthy_predictions (test_soundhealth.SoundHealthTests.test_silence_and_short_audio_are_not_healthy_predictions) ... ok
+test_threshold_is_normal_only_order_statistic (test_soundhealth.SoundHealthTests.test_threshold_is_normal_only_order_statistic) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.341s
+
+OK
